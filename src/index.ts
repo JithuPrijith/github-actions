@@ -19,9 +19,9 @@ export function factorial(x:number):number {
   }
   
   export function calculate(x:number, y:number):number {
-    let xFact = factorial(x);
-    let yFact = factorial(y);
-    let powerofxy = power(x, y);
-    let powerofyx = power(y, x);
+    const xFact = factorial(x);
+    const yFact = factorial(y);
+    const powerofxy = power(x, y);
+    const powerofyx = power(y, x);
     return xFact + yFact + powerofxy + powerofyx;
   }
